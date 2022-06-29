@@ -1,0 +1,235 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif; 
+    background-color: rgb(128, 0, 32); 
+    margin: 0px;
+    color: rgb(225, 173, 1);
+}
+
+#welcome-section { 
+    font-size: 38px; 
+    height: 80vh; 
+    margin-top: 250px; 
+    align-items: center; 
+    color: rgb(225, 173, 1); 
+}
+
+#navbar { 
+    font-size: 28px; 
+    border: 3px solid whitesmoke; 
+    width: 100%; 
+    position: fixed; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.nav li { 
+    list-style-type: none; 
+    display: inline; 
+    margin: 40px; 
+}
+
+a { 
+    color: rgb(225, 173, 1); 
+    text-decoration: none; 
+}
+
+.container-2 { 
+    display: flex; 
+    flex-direction: column; 
+    background: url("/images/bg2.jpg"); 
+}
+
+.container-3 { 
+    display: flex;
+     flex-flow: 
+     row wrap; 
+}
+
+
+.flex-items-4 { 
+    border: 1px solid black; 
+    text-align: center; 
+    color: rgb(128, 0, 32); 
+    font-size: 26px; 
+}
+
+.flex-items-4:hover {
+    box-shadow: 0px 0px 30px 5px black;
+}
+
+p { 
+    color: whitesmoke; 
+}
+
+.flex-header { 
+    text-align: center; 
+    font-size: 28px; 
+    color: whitesmoke;
+}
+
+.flex-bg1 { 
+    background: url("/images/25551968_2094698160750434_7638733207189240234_n.jpg") center center / cover; 
+    margin-bottom: 100px;
+}
+
+.flex-bg2 { 
+    background: url(/images/survey2.jpg) center center/ contain;
+    margin-bottom: 100px;
+
+}
+
+.flex-bg3 {
+    background: url(/images/yea.jpg) center center/ cover;
+    margin-bottom: 100px;
+}
+
+.flex-bg4 {
+    background: url(/images/hometown.jpg) center center/ cover;
+    margin-bottom: 100px;
+}
+
+.flex-bg5 {
+    background: url(/images/fist2.jpg) center center/cover;
+    margin-bottom: 100px;
+}
+
+.bg-text { 
+    margin-top: 370px; 
+    border-top: 2px solid rgb(0, 0, 128);
+    background-color: rgba(240, 248, 255, 0.506); 
+    color: rgb(235, 180, 1);
+}
+
+nav#navbar { 
+    background: linear-gradient(45deg, rgb(128, 0, 32), rgb(0, 0, 128), rgb(128, 0, 32)); 
+    top: 0px; 
+    left: 0px; 
+    border: 2px solid; 
+}
+
+h1#About { 
+    margin: 0px; 
+}
+
+p.flex-item_3 { 
+    margin: 0px; 
+    font-size: 28px; 
+}
+
+section#welcome-section { 
+    margin: 100px 0px 0px; 
+    height: calc(100vh - 100px); 
+    display: flex; 
+    align-items: center; 
+    flex-direction: column; 
+    justify-content: center; 
+}
+
+
+section.container-3 { 
+    max-width: 960px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    align-items: stretch; 
+    justify-content: space-between; 
+}
+
+
+.container-3 a { 
+    flex-basis: 24%; 
+}
+section.container-3 { }
+
+footer#Contact { 
+    background-color: rgb(100, 3, 27);
+    padding: 60px 0px; 
+    color: white;
+    text-align: center; 
+}
+
+@media only screen and (min-width: 600px) {
+  .container-3 a { flex-basis: 180px; padding: 0px 10px; }
+  .container-3 { width: 80%; }
+}
+
+#navbar h1 {
+    margin-left: 80px;
+    color: rgb(235, 180, 1);
+}
+
+#navbar span {
+    position: relative;
+    bottom: -35px;
+    left: -35;
+    font-family: monospace;
+}
+
+
+
+.footer-flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 88px;
+}
+
+.p-span1 {
+    font-size: 24px;
+}
+
+.fa-facebook:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.fa-envelope:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transition: 0.5s;
+} 
+
+.fa-linkedin:hover {
+    cursor: pointer;
+    transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    transition: 0.5s;
+}
+
+.footh2 {
+    position: relative;
+    right: -20px;
+}
+
+.me {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px;
+}
+
+.who-i {
+    text-align: center;
+}
+.mypic {
+    width: 50%;
+    border: 1px solid black;
+    
+}
+
+.center {
+    text-align: center;
+}
+
+.p-box {
+    border: 2px white solid;
+    width: 40%;
+    padding: 20px;
+}
