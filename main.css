@@ -75,23 +75,23 @@ p {
 }
 
 .flex-bg2 { 
-    background: url(https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700727/my-uploads/survey2_ug83gs.jpg) center center/ contain;
+    background: url("https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700727/my-uploads/survey2_ug83gs.jpg") center center/ contain;
     margin-bottom: 100px;
 
 }
 
 .flex-bg3 {
-    background: url(https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700488/my-uploads/yea_t65xza.jpg) center center/ cover;
+    background: url("https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700488/my-uploads/yea_t65xza.jpg") center center/ cover;
     margin-bottom: 100px;
 }
 
 .flex-bg4 {
-    background: url(https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700751/my-uploads/hometown_pu2n4y.jpg) center center/ cover;
+    background: url("https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700751/my-uploads/hometown_pu2n4y.jpg") center center/ cover;
     margin-bottom: 100px;
 }
 
 .flex-bg5 {
-    background: url(https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700475/my-uploads/fist2_sxcpgi.jpg) center center/cover;
+    background: url("https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700475/my-uploads/fist2_sxcpgi.jpg") center center/cover;
     margin-bottom: 100px;
 }
 
