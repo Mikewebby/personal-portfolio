@@ -70,28 +70,28 @@ p {
 }
 
 .flex-bg1 { 
-    background: url("/images/25551968_2094698160750434_7638733207189240234_n.jpg") center center / cover; 
+    background: url("https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700687/my-uploads/25551968_2094698160750434_7638733207189240234_n_iuipyl.jpg") center center / cover; 
     margin-bottom: 100px;
 }
 
 .flex-bg2 { 
-    background: url(/images/survey2.jpg) center center/ contain;
+    background: url(https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700727/my-uploads/survey2_ug83gs.jpg) center center/ contain;
     margin-bottom: 100px;
 
 }
 
 .flex-bg3 {
-    background: url(/images/yea.jpg) center center/ cover;
+    background: url(https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700488/my-uploads/yea_t65xza.jpg) center center/ cover;
     margin-bottom: 100px;
 }
 
 .flex-bg4 {
-    background: url(/images/hometown.jpg) center center/ cover;
+    background: url(https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700751/my-uploads/hometown_pu2n4y.jpg) center center/ cover;
     margin-bottom: 100px;
 }
 
 .flex-bg5 {
-    background: url(/images/fist2.jpg) center center/cover;
+    background: url(https://res.cloudinary.com/dlsaoyrfz/image/upload/v1656700475/my-uploads/fist2_sxcpgi.jpg) center center/cover;
     margin-bottom: 100px;
 }
 
@@ -149,10 +149,10 @@ footer#Contact {
     text-align: center; 
 }
 
-@media only screen and (min-width: 600px) {
+/* @media only screen and (min-width: 600px) {
   .container-3 a { flex-basis: 180px; padding: 0px 10px; }
   .container-3 { width: 80%; }
-}
+} */
 
 #navbar h1 {
     margin-left: 80px;
